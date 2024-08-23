@@ -5,9 +5,9 @@
 	--secondary: #99594e;
 	--navbar-bg: #6e070ce8;
 	--text-btn-color: white;
-	--table-border-color: #1c0707a4;
+	--table-border-color: ##1c070717;
 	--btn-default-hover-bg: white;
-	--sidebar-select-color: #1c0707a4;
+	--sidebar-select-color: ##1c070717;
 	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
 	--text-base: 13px;
 }
@@ -90,8 +90,8 @@ body, .page-container {
 
 .es-icon {
 	@extend .icon;
-	fill :  #1c0707a4 !important; 
-	stroke:  #1c0707a4 !important;
+	fill :  ##1c070717 !important; 
+	stroke:  ##1c070717 !important;
 }
 
 .page-content .layout-main-section{
@@ -108,7 +108,7 @@ body, .page-container {
 }
 
 .widget.links-widget-box, .widget.dashboard-widget-box {
-	border: 1px solid #1c0707a4;
+	border: 1px solid ##1c070717;
 }
 
 .widget.links-widget-box .widget-head .widget-label .widget-title{
@@ -172,11 +172,11 @@ a.onboard-spotlight .link-content:hover {
 }
 
 .form-control:focus, .form-control:hover{
-	box-shadow: 0 0 0 2px #1c0707a4 !important;
+	box-shadow: 0 0 0 2px #1c070717 !important;
 }
 
 .form-control:focus {
-	background-color: #1c0707a4;
+	background-color: #1c070717;
 }
 
 .frappe-control:not([data-fieldtype="MultiSelectPills"]):not([data-fieldtype="Table MultiSelect"]).has-error input:hover,
@@ -221,12 +221,12 @@ input[type="checkbox"]:checked {
 
 .btn.btn-primary{
 	color: var(--text-btn-color);
-	border: solid 2px #6e070ce8 !important;
+	border: solid 2px #1c0707 !important;
 }
 
 .btn.btn-primary:hover {
 	background: var(--btn-default-hover-bg) !important;
-	border: solid 2px #6e070ce8 !important;
+	border: solid 2px #1c0707 !important;
 	color: var(--text-color);
   }
 
